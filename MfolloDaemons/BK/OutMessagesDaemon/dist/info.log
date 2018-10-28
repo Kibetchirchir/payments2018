@@ -1,0 +1,9 @@
+2014-09-07 01:15:27,756 | INFO | Just finished initializing Loggers...
+2014-09-07 01:15:27,781 | INFO | MessagingDaemon | ProcessHandler() | -1 | All required properties were loaded successfully
+2014-09-07 01:15:27,781 | INFO | 
+2014-09-07 01:15:27,781 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2014-09-07 01:15:27,791 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-09-07 01:15:28,627 | INFO | MessagingDaemon | No Records allocated  ++++++++++++ No Records to Fetch
+2014-09-07 01:15:29,627 | INFO | 
+2014-09-07 01:15:29,627 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2014-09-07 01:15:29,628 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 

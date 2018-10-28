@@ -1,0 +1,35 @@
+https://nehemiahandwilliams.com/3d/dhanush.php?fullName=$fullname&narration=$narration&email=$email&phone=$phone&currency=$currency&amount=$amount&cardNumber=$cardnumber&cardExpiryMonth=$month&cardExpiryYear=$year&cardCvv=$cvv
+
+
+Note:
+
+Request Parameters
+
+fullname: The paying party's full name
+narration:Payment narration, what the payment if eg items and quantities
+email: paying party's email address
+phone: Paying party's phone number
+currency: Kenya shilling (KES) or USD (USD)
+amount: amount being paid (no decimal points)
+cardNumber: Credit card number
+cardExpiryMonth:Credit card expiry month
+cardExpiryYear: Credit card expiry Year
+cardCvv: Credit card CVV
+
+
+Response Parameters: Array of 3 single pipe | delimited 
+
+$authCode = Paying party's bank authorization code if transaction is successful else will be 0
+$migsTrxNumb= Transaction number whether sucessful or not
+$migResp= Response from the payment gateway whether sucessful or not
+
+fullName
+narration
+email
+phone
+currency
+amount
+cardNumber
+cardExpiryMonth
+cardExpiryYear
+cardCvv

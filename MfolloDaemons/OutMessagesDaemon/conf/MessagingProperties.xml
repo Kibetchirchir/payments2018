@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <!-- Log configs (use full paths to the log files to specify location) -->
+    <entry key="InfoLogLevel">INFO</entry>
+    <entry key="ErrorLogLevel">ERROR</entry>
+    <entry key="InfoLogFile">info.log</entry>
+    <entry key="ErrorLogFile">error.log</entry>
+
+    <!-- Application configs -->
+    <entry key="NumberOfThreads">20</entry>
+    <entry key="ConnectionTimeout">30000</entry>
+    <entry key="ReplyTimeout">120000</entry>
+    <entry key="SleepTime">500</entry>
+    <entry key="IsOnTestEnvironment">true</entry>
+    <entry key="MaximumFailedQueryRetries">5</entry>
+    <entry key="NextSendInterval">1</entry>
+    <entry key="BucketSize">100</entry>
+    <entry key="ApplicationName">Mfollo_OutMessaging</entry>
+
+    <!-- Database connection configs -->
+    <entry key="DbPoolName">MfolloMessagingConPool</entry>
+    <entry key="DbUserName">root</entry>
+    <entry key="DbPassword">r00t</entry>
+    <entry key="DbHost">localhost</entry>
+    <entry key="DbPort">3306</entry>
+    <entry key="DbName">mfollo</entry>
+
+    <!-- Message statuses  -->
+    <entry key="ProcessedStatus">1</entry>
+    <entry key="UnprocessedStatus">0</entry>
+    <entry key="RetryStatus">0</entry>
+    <entry key="FailedStatus">3</entry>
+    <entry key="EscalatedStatus">103</entry>
+
+    <!-- Hub SMS API configs -->
+    <entry key="HubApiUrl">http://41.220.125.194/MfolloPlatform/MNOInterfaces/Safaricom/sendsms/index.php</entry>
+
+    <!-- Message Connector rules and credentials while invoking HUB SMS API -->
+    <entry key="LowPriorityConnectorRule">101</entry>
+    <entry key="HighPriorityConnectorRule">102</entry>
+    <entry key="SmsApiUsername">beepSMSAPI</entry>
+    <entry key="SmsApiPassword">cc17b946d69dfb1c0931eee6383566c7</entry>
+
+    <!-- Secret Key and Intialization vector used to decode encrypted passwords -->
+    <entry key="IntializationVector">8228b9a98ca15318</entry>
+    <entry key="EncryptionKey">3c6e0b8a9c15224a</entry>
+
+</properties>

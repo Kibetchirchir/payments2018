@@ -1,0 +1,52 @@
+/* color */
+a, a:hover, .carouselpanel h4 a:hover,
+bloglist .blog-title a:hover,
+.bloglist .readmore:hover,
+.bloglist .blog-meta ul li a:hover,
+.relatedpanel h4 a:hover,
+.comment-body h5 a:hover,
+.commentpanel .showreplies:hover,
+.widget-list li a:hover,
+.footer .widget-list li a:hover,
+.testimonial-author span,
+.teampanel small,
+.teampanel-small small,
+.nav-tabs.nav-hiring > li > a:hover,
+.big-white span, .h4-orange,
+.bloglist .blog-title a:hover {
+   color: #2557bd;
+}
+
+/* border-color */
+.header-nav .mainmenu li.current-menu-item > a,
+.filter li a:hover, .filter li.current a,
+.portfolio .portHover,
+.fontawesome-list li a:hover,
+.pagination ul li a:hover,
+.nav-tabs > .active > a span,
+.nav-tabs > .active > a:focus span,
+.nav > li.dropdown.open.active > a:focus span,
+.line-orange {
+   border-color: #2557bd;
+}
+
+/* background */
+.header-nav .mainmenu .sub-menu li a:hover,
+.header-nav .mainmenu .sub-menu li.sfHover > a,
+.bloglist .blog-type:hover, .popular h4,
+.contactform button:hover,
+.newsletter-form .btn.btn-orange,
+.newsletter-form .btn:hover,
+.fontawesome-list li a:hover,
+.tpxicon-black:hover,
+.btn-default:hover,
+.pagination ul li a:hover,
+.btn-inverse:hover, .btn-inverse:active,
+.mobilemenu li a:hover,
+.mobilemenu li .sub-menu li a:hover,
+.pricing-btn .btn-orange,
+.services .btn-orange {
+   background-color: #2557bd;
+}
+
+.bg-orange { background: rgba(37,87,189,0.8); }

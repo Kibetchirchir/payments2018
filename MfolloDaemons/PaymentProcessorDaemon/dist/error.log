@@ -1,0 +1,7 @@
+2015-01-14 11:28:10,869 | FATAL | MessagingDaemon | allocateBucket() --- Failed to allocate Bucket to bucketID51 reason=>Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2015-01-14 11:28:22,340 | FATAL | MessagingDaemon | allocateBucket() --- Failed to allocate Bucket to bucketID52 reason=>Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2015-01-14 11:28:33,785 | FATAL | MessagingDaemon | allocateBucket() --- Failed to allocate Bucket to bucketID53 reason=>Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2015-01-14 11:28:45,626 | FATAL | MessagingDaemon | allocateBucket() --- Failed to allocate Bucket to bucketID54 reason=>Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2015-01-14 11:28:57,502 | FATAL | MessagingDaemon | allocateBucket() --- Failed to allocate Bucket to bucketID55 reason=>Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2015-01-14 11:29:09,299 | FATAL | MessagingDaemon | allocateBucket() --- Failed to allocate Bucket to bucketID56 reason=>Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2015-01-14 11:29:20,804 | FATAL | MessagingDaemon | allocateBucket() --- Failed to allocate Bucket to bucketID57 reason=>Could not create connection to database server. Attempted reconnect 3 times. Giving up.

@@ -1,0 +1,2281 @@
+
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0x2552C8D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=3371" (0x00000000)
+|   "-Dcommons.daemon.process.parent=3370" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Exiting. Could not find the properties file: conf/MessagingProperties.xml (No such file or directory)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Props.loadProperties(Props.java:430)
+	at outmessagesdaemon.utils.Props.<init>(Props.java:158)
+	at outmessagesdaemon.DaemonRun.init(DaemonRun.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.commons.daemon.support.DaemonLoader.load(DaemonLoader.java:207)
+Cannot load daemon
+java_load failed
+Service exit with a return value of 3
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0x483768D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=3448" (0x00000000)
+|   "-Dcommons.daemon.process.parent=3447" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/3448.jsvc_up
+Switching umask back to 022 from 077
+Still running according to PID file /var/run/OutMessaging.pid, PID is 3448
+Service exit with a return value of 122
+Caught SIGTERM: Scheduling a shutdown
+remove_tmp_file: /tmp/3448.jsvc_up
+Shutdown or reload requested: exiting
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0xC37998D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=6501" (0x00000000)
+|   "-Dcommons.daemon.process.parent=6500" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/6501.jsvc_up
+Caught SIGTERM: Scheduling a shutdown
+remove_tmp_file: /tmp/6501.jsvc_up
+Shutdown or reload requested: exiting
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0xD2EAA8D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=6922" (0x00000000)
+|   "-Dcommons.daemon.process.parent=6921" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/6922.jsvc_up
+Caught SIGTERM: Scheduling a shutdown
+remove_tmp_file: /tmp/6922.jsvc_up
+Shutdown or reload requested: exiting
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0x138518D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=30041" (0x00000000)
+|   "-Dcommons.daemon.process.parent=30040" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/30041.jsvc_up
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0x265AC8D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=5692" (0x00000000)
+|   "-Dcommons.daemon.process.parent=5691" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/5692.jsvc_up
+Caught SIGTERM: Scheduling a shutdown
+remove_tmp_file: /tmp/5692.jsvc_up
+Shutdown or reload requested: exiting
+Daemon stopped successfully
+Daemon destroyed successfully
+Calling System.exit(0)
+Service shut down
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0xC3CB38D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=7219" (0x00000000)
+|   "-Dcommons.daemon.process.parent=7218" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/7219.jsvc_up
+Caught SIGTERM: Scheduling a shutdown
+remove_tmp_file: /tmp/7219.jsvc_up
+Shutdown or reload requested: exiting
+Daemon stopped successfully
+Daemon destroyed successfully
+Calling System.exit(0)
+Service shut down
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0x2AF518D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=24255" (0x00000000)
+|   "-Dcommons.daemon.process.parent=24254" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/24255.jsvc_up
+Caught SIGTERM: Scheduling a shutdown
+remove_tmp_file: /tmp/24255.jsvc_up
+Shutdown or reload requested: exiting
+Daemon stopped successfully
+Daemon destroyed successfully
+Calling System.exit(0)
+Service shut down
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0x26CC38D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=26996" (0x00000000)
+|   "-Dcommons.daemon.process.parent=26995" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/26996.jsvc_up
+Exception in thread "pool-1-thread-598" Exception in thread "pool-1-thread-69" Exception in thread "pool-1-thread-553" Exception in thread "pool-1-thread-813" Exception in thread "pool-1-thread-117" Exception in thread "pool-1-thread-168" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-777" Exception in thread "pool-1-thread-747" Exception in thread "pool-1-thread-163" Exception in thread "pool-1-thread-400" Exception in thread "pool-1-thread-844" Exception in thread "pool-1-thread-206" Exception in thread "pool-1-thread-718" Exception in thread "pool-1-thread-210" Exception in thread "pool-1-thread-826" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-436" Exception in thread "pool-1-thread-875" Exception in thread "pool-1-thread-67" Exception in thread "pool-1-thread-166" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.nio.charset.CharsetEncoder.<init>(CharsetEncoder.java:226)
+	at sun.nio.cs.US_ASCII$Encoder.<init>(US_ASCII.java:155)
+	at sun.nio.cs.US_ASCII$Encoder.<init>(US_ASCII.java:151)
+Exception in thread "pool-1-thread-308" Exception in thread "pool-1-thread-322" Exception in thread "pool-1-thread-583" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-648" Exception in thread "pool-1-thread-315" Exception in thread "pool-1-thread-110" Exception in thread "pool-1-thread-121" Exception in thread "pool-1-thread-124" Exception in thread "pool-1-thread-551" Exception in thread "pool-1-thread-91" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-649" Exception in thread "pool-1-thread-555" Exception in thread "pool-1-thread-122" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at sun.net.www.protocol.http.HttpURLConnection.writeRequests(HttpURLConnection.java:513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1321)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:181)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-515" Exception in thread "pool-1-thread-974" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-302" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-792" Exception in thread "pool-1-thread-326" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-434" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-791" Exception in thread "pool-1-thread-764" Exception in thread "pool-1-thread-939" Exception in thread "pool-1-thread-101" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-572" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-345" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-623" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-794" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-321" Exception in thread "pool-1-thread-305" Exception in thread "pool-1-thread-906" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-624" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-646" Exception in thread "pool-1-thread-840" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-783" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-869" Exception in thread "pool-1-thread-524" Exception in thread "pool-1-thread-410" Exception in thread "pool-1-thread-298" Exception in thread "pool-1-thread-558" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-271" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-479" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-160" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-470" Exception in thread "pool-1-thread-72" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-756" Exception in thread "pool-1-thread-832" Exception in thread "pool-1-thread-413" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-155" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-118" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-56" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-334" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-975" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-806" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-785" Exception in thread "pool-1-thread-352" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-874" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-523" Exception in thread "pool-1-thread-463" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-343" Exception in thread "pool-1-thread-820" Exception in thread "pool-1-thread-177" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-152" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-166"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-649"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-194"
+Caught SIGTERM: Scheduling a shutdown
+remove_tmp_file: /tmp/26996.jsvc_up
+Shutdown or reload requested: exiting
+
+Exception in thread "pool-1-thread-838" Exception in thread "Thread-14" Exception in thread "pool-1-thread-817" Exception in thread "pool-1-thread-847" Exception in thread "pool-1-thread-684" Exception in thread "pool-1-thread-475" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-788" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-318" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "Thread-19" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-353" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-196" Exception in thread "pool-1-thread-189" Exception in thread "Thread-13" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-319" Exception in thread "pool-1-thread-867" Exception in thread "pool-1-thread-871" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-344" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-335" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-294" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-316" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-511" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-368" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-346" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-831" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-354" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-360" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-95" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-406" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-312" Exception in thread "pool-1-thread-85" Exception in thread "pool-1-thread-412" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-371" Exception in thread "pool-1-thread-220" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-383" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-306" Exception in thread "pool-1-thread-562" Exception in thread "pool-1-thread-569" Exception in thread "pool-1-thread-784" Exception in thread "pool-1-thread-695" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-564" Exception in thread "pool-1-thread-131" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-364" Exception in thread "pool-1-thread-573" Exception in thread "pool-1-thread-557" Exception in thread "pool-1-thread-566" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-779" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-576" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-207" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-288" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-295" Exception in thread "pool-1-thread-409" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-632" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-809" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-146" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-780" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-745" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-440" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-786" Exception in thread "pool-1-thread-127" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-233" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-484" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-765" Exception in thread "pool-1-thread-89" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-834" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-681" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-492" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-505" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-506" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-518" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-751" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-134" Exception in thread "pool-1-thread-873" Exception in thread "pool-1-thread-851" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-686" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-10" Exception in thread "pool-1-thread-699" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at sun.net.www.MessageHeader.mergeHeader(MessageHeader.java:443)
+	at sun.net.www.MessageHeader.parseHeader(MessageHeader.java:436)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:699)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:633)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1323)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:181)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-650" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "Thread-20" Exception in thread "pool-1-thread-770" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-320" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-691" Exception in thread "pool-1-thread-420" Exception in thread "pool-1-thread-347" Exception in thread "Thread-15" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-595" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-76" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-325" Exception in thread "pool-1-thread-239" Exception in thread "pool-1-thread-793" Exception in thread "pool-1-thread-351" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-158" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-543" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-149" Exception in thread "pool-1-thread-451" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-497" Exception in thread "pool-1-thread-880" Exception in thread "pool-1-thread-329" Exception in thread "pool-1-thread-778" Exception in thread "pool-1-thread-927" Exception in thread "pool-1-thread-282" Exception in thread "pool-1-thread-855" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-858" Exception in thread "pool-1-thread-105" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-879" Exception in thread "pool-1-thread-507" Exception in thread "Thread-21" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-443" Exception in thread "pool-1-thread-257" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-262" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-462" Exception in thread "pool-1-thread-280" Exception in thread "pool-1-thread-377" Exception in thread "pool-1-thread-483" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-287" Exception in thread "pool-1-thread-481" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-277" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-171" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-169" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-175" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-782" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-773" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-935" Exception in thread "pool-1-thread-330" java.lang.NoClassDefFoundError: Could not initialize class com.mysql.jdbc.SQLError
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:435)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:381)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:233)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:73)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1188)
+	at org.apache.commons.dbcp.PoolingDriver.connect(PoolingDriver.java:180)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:233)
+	at outmessagesdaemon.db.MySQL.getConnection(MySQL.java:188)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:307)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-255" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-456" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-260" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-256" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-244" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-249" Exception in thread "pool-1-thread-702" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-574" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-250" Exception in thread "pool-1-thread-145" Exception in thread "pool-1-thread-242" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-815" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-252" Exception in thread "pool-1-thread-248" Exception in thread "pool-1-thread-272" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-482" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-501" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-823" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-441" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-730" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-609" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-526" Exception in thread "pool-1-thread-517" Exception in thread "pool-1-thread-487" Exception in thread "pool-1-thread-226" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Thread-17" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-142" Exception in thread "pool-1-thread-228" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-619" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-531" Exception in thread "pool-1-thread-219" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-52" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-928" Exception in thread "pool-1-thread-230" Exception in thread "pool-1-thread-534" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-227" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-313" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-603" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-132" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-102" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-525" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-454" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-981" Exception in thread "pool-1-thread-234" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-301" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-214" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-199" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-205" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-204" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-201" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0x2500E8D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=28416" (0x00000000)
+|   "-Dcommons.daemon.process.parent=28415" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/28416.jsvc_up
+Exception in thread "pool-1-thread-291" Exception in thread "pool-1-thread-303" Exception in thread "pool-1-thread-922" Exception in thread "pool-1-thread-905" Exception in thread "pool-1-thread-299" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-946" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-952" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Keep-Alive-Timer" Exception in thread "pool-1-thread-939" Exception in thread "pool-1-thread-894" Exception in thread "pool-1-thread-913" java.lang.OutOfMemoryError: Java heap space
+	at java.nio.HeapByteBuffer.<init>(HeapByteBuffer.java:57)
+	at java.nio.ByteBuffer.allocate(ByteBuffer.java:331)
+	at sun.nio.cs.StreamEncoder.<init>(StreamEncoder.java:195)
+	at sun.nio.cs.StreamEncoder.<init>(StreamEncoder.java:175)
+	at sun.nio.cs.StreamEncoder.forOutputStreamWriter(StreamEncoder.java:68)
+	at java.io.OutputStreamWriter.<init>(OutputStreamWriter.java:133)
+	at java.io.PrintStream.<init>(PrintStream.java:111)
+	at java.io.PrintStream.<init>(PrintStream.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:438)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1091)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:174)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-954" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-909" Exception in thread "pool-1-thread-927" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "Thread-11" java.lang.NullPointerException
+	at com.mysql.jdbc.StatementImpl$CancelTask$1.run(StatementImpl.java:108)
+Exception in thread "pool-1-thread-921" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-549" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-199" Exception in thread "pool-1-thread-929" Exception in thread "pool-1-thread-960" Exception in thread "pool-1-thread-920" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-902" Exception in thread "pool-1-thread-543" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-949" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+	at java.io.BufferedWriter.<init>(BufferedWriter.java:105)
+	at java.io.BufferedWriter.<init>(BufferedWriter.java:88)
+	at java.io.PrintStream.<init>(PrintStream.java:112)
+	at java.io.PrintStream.<init>(PrintStream.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:438)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1091)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:174)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-527" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-233" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-916" Exception in thread "pool-1-thread-903" java.lang.OutOfMemoryError: Java heap space
+	at java.io.BufferedWriter.<init>(BufferedWriter.java:105)
+	at java.io.BufferedWriter.<init>(BufferedWriter.java:88)
+	at java.io.PrintStream.<init>(PrintStream.java:112)
+	at java.io.PrintStream.<init>(PrintStream.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:438)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1091)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:174)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-280" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-898" Exception in thread "pool-1-thread-934" Exception in thread "pool-1-thread-899" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-264" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-313" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.io.BufferedOutputStream.<init>(BufferedOutputStream.java:76)
+	at java.io.BufferedOutputStream.<init>(BufferedOutputStream.java:59)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:438)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1091)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:174)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-460" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-343" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-234" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-566" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-532" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-9" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-516" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-569" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-498" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-777" Exception in thread "pool-1-thread-179" Exception in thread "pool-1-thread-204" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-328" Exception in thread "pool-1-thread-745" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-467" Exception in thread "pool-1-thread-183" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-447" Exception in thread "pool-1-thread-311" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-550" Exception in thread "pool-1-thread-490" Exception in thread "pool-1-thread-453" Exception in thread "pool-1-thread-267" Exception in thread "pool-1-thread-640" Exception in thread "pool-1-thread-511" Exception in thread "pool-1-thread-573" Exception in thread "pool-1-thread-561" Exception in thread "pool-1-thread-541" Exception in thread "pool-1-thread-445" Exception in thread "pool-1-thread-466" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-298" Exception in thread "pool-1-thread-134" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-240" Exception in thread "pool-1-thread-426" Exception in thread "pool-1-thread-110" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-289" Exception in thread "pool-1-thread-668" Exception in thread "pool-1-thread-560" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-230" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-458" Exception in thread "pool-1-thread-884" Exception in thread "pool-1-thread-449" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-464" Exception in thread "pool-1-thread-398" Exception in thread "pool-1-thread-468" Exception in thread "pool-1-thread-964" Exception in thread "pool-1-thread-932" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-483" Exception in thread "pool-1-thread-222" Exception in thread "pool-1-thread-250" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-442" Exception in thread "pool-1-thread-950" Exception in thread "pool-1-thread-209" Exception in thread "pool-1-thread-191" Exception in thread "pool-1-thread-943" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-352" Exception in thread "pool-1-thread-936" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-181" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-895" Exception in thread "pool-1-thread-279" Exception in thread "pool-1-thread-200" Exception in thread "pool-1-thread-162" Exception in thread "pool-1-thread-554" Exception in thread "pool-1-thread-484" Exception in thread "pool-1-thread-947" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-247" Exception in thread "pool-1-thread-930" Exception in thread "pool-1-thread-301" Exception in thread "pool-1-thread-545" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-972" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-945" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-925" Exception in thread "pool-1-thread-402" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-520" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-966" Exception in thread "pool-1-thread-956" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-941" Exception in thread "Thread-13" Exception in thread "pool-1-thread-891" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-937" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-962" Exception in thread "pool-1-thread-915" Exception in thread "pool-1-thread-958" Exception in thread "pool-1-thread-367" Exception in thread "pool-1-thread-423" Exception in thread "pool-1-thread-26" Exception in thread "pool-1-thread-339" Exception in thread "pool-1-thread-363" Exception in thread "pool-1-thread-420" Exception in thread "pool-1-thread-433" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-421" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-188" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-312" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-297" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-918" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-257" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-907" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-32" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-874" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-515" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-177" Exception in thread "pool-1-thread-370" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-103" Exception in thread "pool-1-thread-333" Exception in thread "pool-1-thread-281" Exception in thread "pool-1-thread-477" Exception in thread "pool-1-thread-1000" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-354" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-517" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-413" Exception in thread "pool-1-thread-444" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-995" Exception in thread "pool-1-thread-910" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-475" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-6" Exception in thread "pool-1-thread-439" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-336" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-451" Exception in thread "pool-1-thread-268" Exception in thread "pool-1-thread-416" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-924" Exception in thread "pool-1-thread-998" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-238" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-344" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-414" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-243" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-523" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-196" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-237" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-938" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-327" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-387" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-471" Exception in thread "pool-1-thread-317" Exception in thread "pool-1-thread-253" Exception in thread "pool-1-thread-911" Exception in thread "pool-1-thread-255" Exception in thread "pool-1-thread-928" Exception in thread "pool-1-thread-263" Exception in thread "pool-1-thread-575" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-489" Exception in thread "pool-1-thread-383" Exception in thread "pool-1-thread-990" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-394" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-266" Exception in thread "pool-1-thread-271" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-415" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-404" Exception in thread "pool-1-thread-360" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-319" Exception in thread "pool-1-thread-378" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-931" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-287" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-345" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-437" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-528" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-321" Exception in thread "pool-1-thread-353" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-435" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-244" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-579" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-396" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-92" Exception in thread "pool-1-thread-232" Exception in thread "pool-1-thread-438" Exception in thread "pool-1-thread-203" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-215" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-448" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-392" Exception in thread "pool-1-thread-288" Exception in thread "pool-1-thread-270" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-314" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-385" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-361" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-331" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-272" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-292" Exception in thread "pool-1-thread-318" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-293" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-430" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-429" Exception in thread "pool-1-thread-246" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-923" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-860" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "Thread-15" Exception in thread "pool-1-thread-968" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-666" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-526" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-469" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-373" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-882" Exception in thread "pool-1-thread-487" Exception in thread "pool-1-thread-454" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-881" Exception in thread "pool-1-thread-538" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-551" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-295" Exception in thread "pool-1-thread-940" Exception in thread "pool-1-thread-896" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-168" Exception in thread "pool-1-thread-838" Exception in thread "pool-1-thread-486" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-957" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-823" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-212" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-973" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-961" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-4" Exception in thread "pool-1-thread-890" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-845" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-546" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-617" Exception in thread "pool-1-thread-459" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-474" Exception in thread "pool-1-thread-60" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-296" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-1-thread-577" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-470" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-495" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-535" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-446" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-851" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-283" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-755" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-443" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-174" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-418" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-356" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-381" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-409" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-379" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-225" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-306" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-482" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-893" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-325" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-320" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-276" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-347" Exception in thread "pool-1-thread-262" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-41" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-357" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-900" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-286" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-316" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-340" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-618" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-935" Exception in thread "pool-1-thread-3" Exception in thread "pool-1-thread-904" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-274" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-440" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-578" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-308" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-419" Exception in thread "pool-1-thread-583" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-810" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-994" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-503" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-639" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-422" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-90" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-840" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:45)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-417" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-739" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:45)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-989" Exception in thread "pool-1-thread-112" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:45)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-740" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-221" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-323" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-277" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-242" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-576" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-326" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-646" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-329" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-505" Exception in thread "pool-1-thread-664" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-390" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-814" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-259" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-782" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-779" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-1-thread-62" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:45)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-942" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-524" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-831" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-985" Exception in thread "pool-1-thread-761" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-592" Exception in thread "pool-1-thread-742" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-711" Exception in thread "pool-1-thread-251" Exception in thread "pool-1-thread-988" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-37" Exception in thread "pool-1-thread-260" Exception in thread "pool-1-thread-837" Exception in thread "pool-1-thread-736" Exception in thread "pool-1-thread-713" Exception in thread "pool-1-thread-118" Exception in thread "pool-1-thread-825" Exception in thread "pool-1-thread-792" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-829" Exception in thread "pool-1-thread-587" Exception in thread "pool-1-thread-315" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-798" Exception in thread "pool-1-thread-132" Exception in thread "pool-1-thread-624" Exception in thread "pool-1-thread-783" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-770" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-602" Exception in thread "pool-1-thread-120" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-805" Exception in thread "pool-1-thread-986" Exception in thread "pool-1-thread-738" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-476" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-685" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-665" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-139" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-841" Exception in thread "pool-1-thread-796" Exception in thread "pool-1-thread-716" Exception in thread "pool-1-thread-855" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-981" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-807" Exception in thread "pool-1-thread-858" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-789" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-975" Exception in thread "pool-1-thread-787" Exception in thread "pool-1-thread-836" Exception in thread "pool-1-thread-53" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-754" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-472" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-725" Exception in thread "pool-1-thread-245" Exception in thread "pool-1-thread-507" Exception in thread "pool-1-thread-570" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-597" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-52" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-9017-thread-154" Exception in thread "pool-9017-thread-156" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-165" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-132" Exception in thread "pool-9017-thread-192" Exception in thread "pool-9017-thread-23" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-101" Exception in thread "pool-9017-thread-164" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-83" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-2" Exception in thread "pool-9017-thread-15" Exception in thread "pool-9017-thread-223" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-148" Exception in thread "pool-9017-thread-162" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-9017-thread-196" Exception in thread "pool-9017-thread-494" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-80" Exception in thread "pool-9017-thread-134" Exception in thread "pool-9017-thread-120" Exception in thread "pool-9017-thread-114" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-7" Exception in thread "pool-9017-thread-208" Exception in thread "pool-9017-thread-172" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-174" Exception in thread "pool-9017-thread-65" Exception in thread "pool-9017-thread-190" Exception in thread "pool-9017-thread-49" Exception in thread "pool-9017-thread-157" Exception in thread "pool-9017-thread-170" Exception in thread "pool-9017-thread-38" Exception in thread "pool-9017-thread-171" Exception in thread "pool-9017-thread-110" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-121" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-12" Exception in thread "pool-9017-thread-109" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-235" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-125" Exception in thread "pool-9017-thread-150" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-231" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-492" Exception in thread "pool-9017-thread-63" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-91" Exception in thread "pool-9017-thread-127" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-9017-thread-115" Exception in thread "pool-9017-thread-176" Exception in thread "pool-9017-thread-107" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-175" Exception in thread "pool-9017-thread-108" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-104" Exception in thread "pool-9017-thread-432" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-92" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-245" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-184" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-198" Exception in thread "pool-9017-thread-260" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-328" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-489" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-188" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-234" Exception in thread "pool-9017-thread-229" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-236" Exception in thread "pool-9017-thread-349" Exception in thread "pool-9017-thread-119" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-239" Exception in thread "pool-9017-thread-161" Exception in thread "pool-9017-thread-189" Exception in thread "pool-9017-thread-355" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-16" Exception in thread "pool-9017-thread-187" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-20" Exception in thread "pool-9017-thread-238" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-230" Exception in thread "pool-9017-thread-159" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-218" Exception in thread "pool-9017-thread-216" Exception in thread "pool-9017-thread-76" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-9017-thread-226" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-106" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-145" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-45" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-140" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-71" Exception in thread "pool-9017-thread-58" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-214" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-9017-thread-129" Exception in thread "pool-9017-thread-217" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-103" Exception in thread "pool-9017-thread-365" Exception in thread "pool-9017-thread-244" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-331" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-53" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-160" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-66" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-136" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-100" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-9017-thread-133" Exception in thread "pool-9017-thread-163" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-126" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-197" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-9017-thread-131" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-9017-thread-130" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-9017-thread-75" Exception in thread "pool-9017-thread-224" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-906"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-917"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-909"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-912"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-350"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-856"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-253"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-255"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-1-thread-415"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-9017-thread-14"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-9017-thread-23"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-9017-thread-242"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-9017-thread-65"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-9017-thread-190"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "pool-9017-thread-157"
+Caught SIGTERM: Scheduling a shutdown
+remove_tmp_file: /tmp/28416.jsvc_up
+Shutdown or reload requested: exiting
+Daemon stopped successfully
+Daemon destroyed successfully
+Calling System.exit(0)
+Service shut down
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0x7CC328D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=6171" (0x00000000)
+|   "-Dcommons.daemon.process.parent=6170" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/6171.jsvc_up
+Caught SIGTERM: Scheduling a shutdown
+Caught SIGHUP: Scheduling a reload
+Shutdown or reload already scheduled
+remove_tmp_file: /tmp/6171.jsvc_up
+Shutdown or reload requested: exiting
+Daemon stopped successfully
+Daemon destroyed successfully
+Calling System.exit(0)
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0xB97038D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=18676" (0x00000000)
+|   "-Dcommons.daemon.process.parent=18675" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/18676.jsvc_up
+Exception in thread "pool-5-thread-201" Exception in thread "pool-5-thread-106" Exception in thread "pool-5-thread-109" Exception in thread "pool-5-thread-102" Exception in thread "pool-5-thread-173" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-131" Exception in thread "pool-5-thread-145" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-159" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-142" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceededException in thread "pool-5-thread-151" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-191" Exception in thread "pool-5-thread-66" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-100" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-5-thread-190" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-228" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-117" Exception in thread "pool-5-thread-56" Exception in thread "pool-5-thread-107" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-63" Exception in thread "pool-5-thread-266" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-34" Exception in thread "pool-5-thread-98" Exception in thread "pool-5-thread-37" Exception in thread "pool-5-thread-259" Exception in thread "pool-5-thread-135" Exception in thread "pool-5-thread-158" Exception in thread "pool-5-thread-233" Exception in thread "pool-5-thread-299" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-138" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-26" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-39" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-271" Exception in thread "pool-5-thread-30" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-52" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-251" Exception in thread "pool-5-thread-137" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-194" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-182" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-5-thread-88" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-289" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-225" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-139" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-69" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-238" Exception in thread "pool-5-thread-325" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-237" Exception in thread "pool-5-thread-226" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-477" Exception in thread "pool-5-thread-67" Exception in thread "pool-5-thread-218" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-252" Exception in thread "pool-5-thread-179" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+	at java.io.BufferedReader.<init>(BufferedReader.java:98)
+	at java.io.BufferedReader.<init>(BufferedReader.java:109)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:182)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-115" Exception in thread "pool-5-thread-146" Exception in thread "pool-5-thread-275" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-495" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-262" Exception in thread "pool-5-thread-323" Exception in thread "pool-5-thread-13" Exception in thread "pool-5-thread-304" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-421" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-230" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-133" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-499" Exception in thread "pool-5-thread-231" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-105" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-95" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-264" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-292" Exception in thread "pool-5-thread-285" Exception in thread "pool-5-thread-282" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-301" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-303" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-319" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-76" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-261" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-472" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-484" Exception in thread "pool-5-thread-101" Exception in thread "pool-5-thread-269" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-326" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-163" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-265" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-436" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-111" Exception in thread "pool-5-thread-160" Exception in thread "pool-5-thread-33" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-288" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-219" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-272" Exception in thread "pool-5-thread-476" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-99" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-386" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-324" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-274" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-192" Exception in thread "pool-5-thread-70" Exception in thread "pool-5-thread-51" Exception in thread "pool-5-thread-241" Exception in thread "pool-5-thread-196" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-166" Exception in thread "pool-5-thread-318" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-452" Exception in thread "pool-5-thread-278" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-5-thread-212" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-121" Exception in thread "pool-5-thread-222" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-284" Exception in thread "pool-5-thread-459" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-5-thread-308" Exception in thread "pool-5-thread-239" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-143" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-157" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-126" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-204" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-155" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-409" Exception in thread "pool-5-thread-432" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-397" Exception in thread "pool-5-thread-362" Exception in thread "pool-5-thread-361" Exception in thread "pool-5-thread-395" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-391" Exception in thread "pool-5-thread-388" Exception in thread "pool-5-thread-456" Exception in thread "pool-5-thread-390" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-389" Exception in thread "pool-5-thread-469" Exception in thread "pool-5-thread-327" Exception in thread "pool-5-thread-320" Exception in thread "pool-5-thread-453" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-463" Exception in thread "pool-5-thread-498" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-490" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-344" Exception in thread "pool-5-thread-188" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-445" Exception in thread "pool-5-thread-412" Exception in thread "pool-5-thread-430" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "pool-5-thread-123" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-446" Exception in thread "pool-5-thread-122" Exception in thread "pool-5-thread-103" Exception in thread "pool-5-thread-372" Exception in thread "pool-5-thread-493" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-396" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-328" Exception in thread "pool-5-thread-317" Exception in thread "pool-5-thread-198" Exception in thread "pool-5-thread-332" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-235" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-374" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-378" Exception in thread "pool-5-thread-357" Exception in thread "pool-5-thread-370" Exception in thread "pool-5-thread-368" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-360" Exception in thread "pool-5-thread-466" Exception in thread "pool-5-thread-435" Exception in thread "pool-5-thread-176" Exception in thread "pool-5-thread-356" Exception in thread "pool-5-thread-394" Exception in thread "pool-5-thread-399" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-405" Exception in thread "pool-5-thread-110" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-489" Exception in thread "pool-5-thread-437" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-50" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-113" Exception in thread "pool-5-thread-209" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-290" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-216" Exception in thread "pool-5-thread-354" java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-246" java.lang.OutOfMemoryError: GC overhead limit exceeded
+Exception in thread "pool-5-thread-352" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-333" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-187" Exception in thread "pool-5-thread-174" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-211" Exception in thread "pool-5-thread-208" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-127" Exception in thread "pool-5-thread-181" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-73" Exception in thread "pool-5-thread-217" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-184" Exception in thread "pool-5-thread-363" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-224" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-141" Exception in thread "pool-5-thread-104" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-154" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-214" Exception in thread "pool-5-thread-367" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-152" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-161" Exception in thread "pool-5-thread-384" Exception in thread "pool-5-thread-350" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-71" Exception in thread "pool-5-thread-221" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-213" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-134" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-150" Exception in thread "pool-5-thread-148" Exception in thread "pool-5-thread-167" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-72" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-144" Exception in thread "pool-5-thread-79" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-183" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-5-thread-170" java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at outmessagesdaemon.utils.Utilities.writeToFile(Utilities.java:112)
+	at outmessagesdaemon.utils.Utilities.updateFile(Utilities.java:47)
+	at outmessagesdaemon.MessagingJob.updateTransaction(MessagingJob.java:345)
+	at outmessagesdaemon.MessagingJob.processRequest(MessagingJob.java:256)
+	at outmessagesdaemon.MessagingJob.run(MessagingJob.java:379)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Switching umask back to 022 from 077
+Still running according to PID file /var/run/OutMessaging.pid, PID is 18676
+Service exit with a return value of 122
+Switching umask back to 022 from 077
+Using default JVM in /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+Attemtping to load library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so
+JVM library /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/amd64/server/libjvm.so loaded
+JVM library entry point found (0x11AE78D0)
++-- DUMPING JAVA VM CREATION ARGUMENTS -----------------
+| Version:                       0x010004
+| Ignore Unrecognized Arguments: False
+| Extra options:                 3
+|   "-Xms16m" (0x00000000)
+|   "-Xmx32m" (0x00000000)
+|   "-Djava.class.path=/apps/MfolloDaemons/OutMessagesDaemon/dist/OutMessagesDaemon.jar" (0x00000000)
++-------------------------------------------------------
+| Internal options:              4
+|   "-Dcommons.daemon.process.id=13163" (0x00000000)
+|   "-Dcommons.daemon.process.parent=13162" (0x00000000)
+|   "-Dcommons.daemon.version=1.0.13" (0x00000000)
+|   "abort" (0x00405760)
++-------------------------------------------------------
+Java VM created successfully
+Class org/apache/commons/daemon/support/DaemonLoader found
+Native methods registered
+java_init done
+Daemon loading...
+Daemon loaded successfully
+java_load done
+Daemon started successfully
+java_start done
+Waiting for a signal to be delivered
+create_tmp_file: /tmp/13163.jsvc_up
+Caught SIGTERM: Scheduling a shutdown
+remove_tmp_file: /tmp/13163.jsvc_up
+Shutdown or reload requested: exiting
+Daemon stopped successfully
+Daemon destroyed successfully
+Calling System.exit(0)
+Service shut down

@@ -1,0 +1,260 @@
+2014-07-25 11:42:59,218 | INFO | Just finished initializing Loggers...
+2014-07-25 11:42:59,291 | INFO | MessagingDaemon | ProcessHandler() | -1 | All required properties were loaded successfully
+2014-07-25 11:42:59,291 | INFO | 
+2014-07-25 11:42:59,291 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:42:59,318 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:42:59,893 | INFO | executeTasks() | -1 | Fetch records using query = SELECT o.outboundID, o.source, o.MSISDN, o.message, ap.spID, ap.netServiceID, m.sendSMSURL, o.numberOfSends FROM outbound o inner join accessPoints ap on o.source = ap.shortcode inner join MNOs m on m.netID = ap.netID WHERE status = ? AND bucketID=?
+2014-07-25 11:42:59,899 | INFO | executeTasks() | -1 | createTask() | -1 | Creating a task for message with outboundID: 100
+2014-07-25 11:42:59,907 | INFO | executeTasks() | -1 | shutdownAndAwaitTermination() | -1 | Executor pool waiting for tasks to complete
+2014-07-25 11:43:02,494 | INFO | MessagingJob | processRequest() | 100 | routeRequest() | Response gotten from send SMS API => <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.csapi.org/schema/parlayx/sms/send/v2_2/local" xmlns:ns2="http://www.csapi.org/wsdl/parlayx/sms/send/v2_2/service"><SOAP-ENV:Header><ns2:RequestSOAPHeader><spId>601518</spId><spPassword>1e54789e0462c02a8201fa94694caa51</spPassword><serviceId>6015182000098323</serviceId><timeStamp>20120907163045</timeStamp><OA>tel:254701748548</OA><FA>tel:254701748548</FA></ns2:RequestSOAPHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:sendSms><ns1:addresses>tel:254701748548</ns1:addresses><ns1:senderName>21505</ns1:senderName><ns1:message>Test Message</ns1:message><ns1:receiptRequest><endpoint>http://41.220.125.194/MfolloPlatform/MNOInterfaces/Safaricom/notification/index.php</endpoint><interfaceName>FunctionsClass</interfaceName><correlator>100</correlator></ns1:receiptRequest></ns1:sendSms></SOAP-ENV:Body></SOAP-ENV:Envelope><?xml version="1.0" encoding="utf-8" ?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><ns1:sendSmsResponse xmlns:ns1="http://www.csapi.org/schema/parlayx/sms/send/v2_2/local"><ns1:result>100002200301140725084301464201</ns1:result></ns1:sendSmsResponse></soapenv:Body></soapenv:Envelope>
+2014-07-25 11:43:02,498 | INFO | MessagingJob | processRequest() | 100 | routeRequest() | Successully sent because resultant HTTP code is 200
+2014-07-25 11:43:02,500 | INFO | MessagingJob | processRequest() | 100 | updateTransaction() | 100 | Update query: UPDATE outbound SET status = 1, bucketID=0,  gatewayUniqueID = 100002200301140725084301464201,  nextSend = DATE_ADD( NOW(), INTERVAL 1 MINUTE), numberOfSends = (numberOfSends + 1) WHERE outboundID = 100
+2014-07-25 11:43:02,504 | INFO | MessagingJob | processRequest() | 100 | updateTransaction() | 100 | Updating message with outMessageID: 100 to status 1
+2014-07-25 11:43:02,556 | INFO | MessagingJob | processRequest() | 100 | updateTransaction() | 100 | Message processed with outMessageID: 100
+2014-07-25 11:43:02,558 | INFO | Executor pool completed all tasks and has shut down normally
+2014-07-25 11:43:03,559 | INFO | 
+2014-07-25 11:43:03,559 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:03,560 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:03,565 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:04,565 | INFO | 
+2014-07-25 11:43:04,565 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:04,566 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:04,571 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:05,571 | INFO | 
+2014-07-25 11:43:05,571 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:05,572 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:05,582 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:06,583 | INFO | 
+2014-07-25 11:43:06,583 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:06,584 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:06,589 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:07,589 | INFO | 
+2014-07-25 11:43:07,589 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:07,590 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:07,595 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:08,595 | INFO | 
+2014-07-25 11:43:08,595 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:08,596 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:08,601 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:09,601 | INFO | 
+2014-07-25 11:43:09,601 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:09,602 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:09,606 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:10,606 | INFO | 
+2014-07-25 11:43:10,606 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:10,607 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:10,611 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:11,611 | INFO | 
+2014-07-25 11:43:11,611 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:11,612 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:11,616 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:12,617 | INFO | 
+2014-07-25 11:43:12,617 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:12,618 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:12,623 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:13,623 | INFO | 
+2014-07-25 11:43:13,623 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:13,624 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:13,628 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:14,628 | INFO | 
+2014-07-25 11:43:14,628 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:14,629 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:14,634 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:15,635 | INFO | 
+2014-07-25 11:43:15,635 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:15,636 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:15,641 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:16,641 | INFO | 
+2014-07-25 11:43:16,641 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:16,642 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:16,646 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:17,647 | INFO | 
+2014-07-25 11:43:17,647 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:17,648 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:17,651 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:18,651 | INFO | 
+2014-07-25 11:43:18,651 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:18,652 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:18,655 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:19,656 | INFO | 
+2014-07-25 11:43:19,656 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:19,657 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:19,661 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:20,661 | INFO | 
+2014-07-25 11:43:20,661 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:20,662 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:20,666 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:21,666 | INFO | 
+2014-07-25 11:43:21,666 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:21,667 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:21,671 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:22,672 | INFO | 
+2014-07-25 11:43:22,672 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:22,673 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:22,677 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:23,677 | INFO | 
+2014-07-25 11:43:23,677 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:23,678 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:23,681 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:24,683 | INFO | 
+2014-07-25 11:43:24,683 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:24,684 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:24,687 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:25,688 | INFO | 
+2014-07-25 11:43:25,688 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:25,689 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:25,693 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:26,693 | INFO | 
+2014-07-25 11:43:26,693 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:26,694 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:26,698 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:27,698 | INFO | 
+2014-07-25 11:43:27,698 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:27,699 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:27,703 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:28,704 | INFO | 
+2014-07-25 11:43:28,704 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:28,705 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:28,709 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:29,710 | INFO | 
+2014-07-25 11:43:29,710 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:29,712 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:29,715 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:30,715 | INFO | 
+2014-07-25 11:43:30,715 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:30,716 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:30,719 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:31,720 | INFO | 
+2014-07-25 11:43:31,720 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:31,721 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:31,724 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:32,726 | INFO | 
+2014-07-25 11:43:32,726 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:32,727 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:32,730 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:33,731 | INFO | 
+2014-07-25 11:43:33,731 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:33,732 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:33,735 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:34,736 | INFO | 
+2014-07-25 11:43:34,736 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:34,737 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:34,740 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:35,740 | INFO | 
+2014-07-25 11:43:35,740 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:35,741 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:35,744 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:36,744 | INFO | 
+2014-07-25 11:43:36,744 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:36,745 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:36,748 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:37,748 | INFO | 
+2014-07-25 11:43:37,748 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:37,749 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:37,752 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:38,752 | INFO | 
+2014-07-25 11:43:38,752 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:38,753 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:38,756 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:39,756 | INFO | 
+2014-07-25 11:43:39,756 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:39,757 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:39,760 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:40,761 | INFO | 
+2014-07-25 11:43:40,761 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:40,762 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:40,765 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:41,765 | INFO | 
+2014-07-25 11:43:41,765 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:41,766 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:41,769 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:42,769 | INFO | 
+2014-07-25 11:43:42,769 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:42,770 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:42,773 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:43,773 | INFO | 
+2014-07-25 11:43:43,773 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:43,774 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:43,777 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:44,777 | INFO | 
+2014-07-25 11:43:44,777 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:44,778 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:44,781 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:45,782 | INFO | 
+2014-07-25 11:43:45,782 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:45,783 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:45,786 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:46,786 | INFO | 
+2014-07-25 11:43:46,786 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:46,787 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:46,790 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:47,790 | INFO | 
+2014-07-25 11:43:47,790 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:47,791 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:47,794 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:48,795 | INFO | 
+2014-07-25 11:43:48,795 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:48,796 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:48,799 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:49,799 | INFO | 
+2014-07-25 11:43:49,799 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:49,800 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:49,803 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:50,804 | INFO | 
+2014-07-25 11:43:50,804 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:50,805 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:50,808 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:51,809 | INFO | 
+2014-07-25 11:43:51,809 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:51,809 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:51,813 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:52,814 | INFO | 
+2014-07-25 11:43:52,814 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:52,815 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:52,818 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:53,818 | INFO | 
+2014-07-25 11:43:53,818 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:53,819 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:53,822 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:54,822 | INFO | 
+2014-07-25 11:43:54,822 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:54,823 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:54,826 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:55,827 | INFO | 
+2014-07-25 11:43:55,827 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:55,828 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:55,831 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:56,832 | INFO | 
+2014-07-25 11:43:56,832 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:56,832 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:56,835 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:57,836 | INFO | 
+2014-07-25 11:43:57,836 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:57,837 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:57,840 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:58,841 | INFO | 
+2014-07-25 11:43:58,841 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:58,842 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:58,845 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:43:59,846 | INFO | 
+2014-07-25 11:43:59,846 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:43:59,847 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:43:59,852 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:44:00,852 | INFO | 
+2014-07-25 11:44:00,852 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:44:00,853 | INFO | executeTasks() | -1 | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:44:00,856 | INFO | executeTasks() | -1 | No Records allocated  ++++++++++++ No Records to Fetch
+2014-07-25 11:44:22,196 | INFO | Just finished initializing Loggers...
+2014-07-25 11:44:22,274 | INFO | MessagingDaemon | ProcessHandler() | -1 | All required properties were loaded successfully
+2014-07-25 11:44:22,274 | INFO | 
+2014-07-25 11:44:22,274 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2014-07-25 11:44:22,304 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2014-07-25 11:44:22,861 | INFO | executeTasks() | -1 | Fetch records using query = SELECT o.outboundID, o.source, o.MSISDN, o.message, ap.spID, ap.netServiceID, m.sendSMSURL, o.numberOfSends FROM outbound o inner join accessPoints ap on o.source = ap.shortcode inner join MNOs m on m.netID = ap.netID WHERE status = ? AND bucketID=?
+2014-07-25 11:44:32,186 | INFO | executeTasks() | -1 | createTask() | -1 | Creating a task for message with outboundID: 100
+2014-07-25 11:44:34,180 | INFO | executeTasks() | -1 | shutdownAndAwaitTermination() | -1 | Executor pool waiting for tasks to complete
+2014-07-25 11:44:34,235 | INFO | MessagingJob | processRequest() | 100 | routeRequest() | Response gotten from send SMS API => <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.csapi.org/schema/parlayx/sms/send/v2_2/local" xmlns:ns2="http://www.csapi.org/wsdl/parlayx/sms/send/v2_2/service"><SOAP-ENV:Header><ns2:RequestSOAPHeader><spId>601518</spId><spPassword>1e54789e0462c02a8201fa94694caa51</spPassword><serviceId>6015182000098323</serviceId><timeStamp>20120907163045</timeStamp><OA>tel:254701748548</OA><FA>tel:254701748548</FA></ns2:RequestSOAPHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:sendSms><ns1:addresses>tel:254701748548</ns1:addresses><ns1:senderName>21505</ns1:senderName><ns1:message>Test Message</ns1:message><ns1:receiptRequest><endpoint>http://41.220.125.194/MfolloPlatform/MNOInterfaces/Safaricom/notification/index.php</endpoint><interfaceName>FunctionsClass</interfaceName><correlator>100</correlator></ns1:receiptRequest></ns1:sendSms></SOAP-ENV:Body></SOAP-ENV:Envelope><?xml version="1.0" encoding="utf-8" ?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><ns1:sendSmsResponse xmlns:ns1="http://www.csapi.org/schema/parlayx/sms/send/v2_2/local"><ns1:result>100001200401140725084433357241</ns1:result></ns1:sendSmsResponse></soapenv:Body></soapenv:Envelope>
+2014-07-25 11:44:34,239 | INFO | MessagingJob | processRequest() | 100 | routeRequest() | Successully sent because resultant HTTP code is 200
+2014-07-25 11:44:37,782 | INFO | MessagingJob | processRequest() | 100 | updateTransaction() | 100 | Update query: UPDATE outbound SET status = 1, bucketID=0,  gatewayUniqueID = 100001200401140725084433357241,  nextSend = DATE_ADD( NOW(), INTERVAL 1 MINUTE), numberOfSends = (numberOfSends + 1) WHERE outboundID = 100
+2014-07-25 11:44:40,944 | INFO | MessagingJob | processRequest() | 100 | updateTransaction() | 100 | Updating message with outMessageID: 100 to status 1
+2014-07-25 11:44:41,898 | INFO | MessagingJob | processRequest() | 100 | updateTransaction() | 100 | Message processed with outMessageID: 100
+2014-07-25 11:44:44,558 | INFO | Executor pool completed all tasks and has shut down normally

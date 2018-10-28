@@ -1,0 +1,33 @@
+2015-01-14 11:27:59,871 | INFO | Just finished initializing Loggers...
+2015-01-14 11:27:59,915 | INFO | MessagingDaemon | ProcessHandler() | -1 | All required properties were loaded successfully
+2015-01-14 11:27:59,915 | INFO | 
+2015-01-14 11:27:59,915 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2015-01-14 11:27:59,932 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2015-01-14 11:28:10,869 | INFO | MessagingDaemon | No Records allocated  ++++++++++++ No Records to Fetch
+2015-01-14 11:28:11,869 | INFO | 
+2015-01-14 11:28:11,869 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2015-01-14 11:28:11,870 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2015-01-14 11:28:22,340 | INFO | MessagingDaemon | No Records allocated  ++++++++++++ No Records to Fetch
+2015-01-14 11:28:23,340 | INFO | 
+2015-01-14 11:28:23,340 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2015-01-14 11:28:23,341 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2015-01-14 11:28:33,785 | INFO | MessagingDaemon | No Records allocated  ++++++++++++ No Records to Fetch
+2015-01-14 11:28:34,786 | INFO | 
+2015-01-14 11:28:34,786 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2015-01-14 11:28:34,786 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2015-01-14 11:28:45,626 | INFO | MessagingDaemon | No Records allocated  ++++++++++++ No Records to Fetch
+2015-01-14 11:28:46,626 | INFO | 
+2015-01-14 11:28:46,627 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2015-01-14 11:28:46,627 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2015-01-14 11:28:57,502 | INFO | MessagingDaemon | No Records allocated  ++++++++++++ No Records to Fetch
+2015-01-14 11:28:58,502 | INFO | 
+2015-01-14 11:28:58,502 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2015-01-14 11:28:58,503 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2015-01-14 11:29:09,300 | INFO | MessagingDaemon | No Records allocated  ++++++++++++ No Records to Fetch
+2015-01-14 11:29:10,300 | INFO | 
+2015-01-14 11:29:10,300 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2015-01-14 11:29:10,300 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 
+2015-01-14 11:29:20,804 | INFO | MessagingDaemon | No Records allocated  ++++++++++++ No Records to Fetch
+2015-01-14 11:29:21,804 | INFO | 
+2015-01-14 11:29:21,804 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Pinging Database...
+2015-01-14 11:29:21,805 | INFO | MessagingDaemon | pingDatabaseServer() | -1 | Ping is Successfull Please Carry on 

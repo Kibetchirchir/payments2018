@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shamcey Metro Style Admin Template</title>
+
+<link rel="stylesheet" href="http://themepixels.com/css/style.default.css" type="text/css" />
+<link rel="stylesheet" href="http://themepixels.com/css/style.blue.css" type="text/css" />
+
+<script type="text/javascript" src="http://themepixels.com/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/modernizr.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/jquery.dropdown.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/custom.js"></script>
+
+<script>
+jQuery(document).ready(function(){
+    var winHeight = jQuery(window).height();
+    jQuery('#framedemo').height(winHeight - 65);
+    
+    jQuery('#cd-dropdown').dropdown( {
+		  gutter : 5,
+		  stack : false,
+		  slidingIn : 100
+	 });
+
+
+});
+</script>
+
+</head>
+
+<body>
+<div class="headframe">
+    <div class="row-fluid">
+        <div class="span3"><a href="http://themepixels.com/"><img src="http://themepixels.com/images/tp-logo.png" /></a></div>
+        <div class="span9 align-right">
+            <a href="http://themeforest.net/item/shamcey-metro-style-admin-template/4566092" class="btn btn-primary btn-small"><span class="iconfa-shopping-cart"></span> Purchase Theme</a>
+            <a href="http://demo.themepixels.com/webpage/shamcey/" class="btn btn-black btn-small"><span class="cls">&times;</span> Remove Frame</a>
+        </div>
+    </div><!-- row-fluid -->
+</div>
+<iframe id="framedemo" src="http://demo.themepixels.com/webpage/shamcey/"></iframe>
+
+</body>
+</html>

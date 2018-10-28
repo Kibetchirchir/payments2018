@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shamcey Metro Style Admin Template - ThemePixels</title>
+
+<link rel="stylesheet" href="http://themepixels.com/css/style.default.css" type="text/css" />
+<link rel="stylesheet" href="http://themepixels.com/css/style.blue.css" type="text/css" />
+
+
+<script type="text/javascript" src="http://themepixels.com/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/jquery-ui-1.10.3.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/modernizr.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/custom.js"></script>
+
+</head>
+
+<body>
+
+<div class="mainwrapper">
+
+<!-- start of header -->
+<header>
+    
+    <div id="topheader" class="topheader">
+        <div class="row-fluid topheader-inner">
+            
+            <div class="span8 topheader-left">
+                &nbsp;
+            </div>
+            
+            <div class="span4 topheader-right">
+                <ul class="social">
+                    <li class="facebook"><a href="http://facebook.com/themepixels" class="tpx-tooltip" data-original-title="Like Us On Facebook"></a></li>
+                    <li class="twitter"><a href="http://twitter.com/themepixels" class="tpx-tooltip" data-original-title="Follow Us On Twitter"></a></li>
+                    <li class="dribbble"><a href="http://dribbble.com/themepixels" class="tpx-tooltip" data-original-title="Follow Us on Dribbble"></a></li>
+                </ul>
+            </div>
+            
+        </div><!-- topheader-inner -->
+    </div><!-- topheader -->
+    
+    <div id="header" class="header">
+        <div class="row-fluid header-inner">
+            
+            <div id="header-logo" class="span3">
+                <a href="http://themepixels.com/"><img src="http://themepixels.com/images/tp-logo.png" alt="" /></a>
+            </div><!-- span3 -->
+            
+            <div id="header-nav" class="span9 header-nav">
+                <nav>
+                    <ul class="mainmenu">
+                                                <!--<li><a href="http://themepixels.com/">Home</a></li>-->
+								<!--<li><a href="http://themepixels.com/freebies">Freebies</a></li>-->
+                        <li><a href="http://themepixels.com/themes">Themes</a></li>
+                        <li class="current-menu-item"><a href="http://themepixels.com/support">Support</a></li>
+                        <!--<li><a href="http://themepixels.com/contact">Contact</a></li>-->
+                    </ul>
+                </nav>
+            </div><!-- span9 -->
+            
+        </div><!-- header-inner -->
+    </div><!-- row-fluid -->
+    
+</header>
+<!-- end of header -->
+<!-- start of main content -->
+<section>
+    
+    <div class="pagetitle">
+        <h2>View Issues</h2>
+        <ul class="breadcrumbs pull-right">
+            <li><a href="http://themepixels.com/">Home</a> <span class="ar">&rarr;</span></li>
+            <li><a href="http://themepixels.com/support">Support</a> <span class="ar">&rarr;</span></li>
+            <li><span>Shamcey Metro Style Admin Template</span></li>
+        </ul>
+    </div><!-- pagetitle -->
+    
+    <div class="maincontent">
+        
+        <div class="row-fluid">
+            <div class="span9">
+                <div class="contentwrapper">
+                    
+                    <h5 class="subpagetitle sptline droid"><span>Shamcey Metro Style Admin Template</span><a href="http://themepixels.com/add_issue/33">+ Add Issue</a></h5>
+                    
+                                        <table class="table tptable">
+                        <thead>
+                            <tr>
+                                <th class="percent70">Subject</th>
+                                <th class="percent10 aligncenter">Replies</th>
+                                <th class="percent15 aligncenter">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/22" class="droid">CHAT - Bug</a><br />
+                                    <span>Started by: 100por1</span>
+                                                                    </td>
+                                <td class="aligncenter">0</td>
+                                <td class="aligncenter">Aug 18, 2014</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/15" class="droid">Shamcey Admin Template not works fine in mobile</a><br />
+                                    <span>Started by: jpriego</span>
+                                                                        <span>Last reply by: jpriego</span>
+                                                                    </td>
+                                <td class="aligncenter">2</td>
+                                <td class="aligncenter">Jan 14, 2014</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/14" class="droid">Date Picker Separator Change</a><br />
+                                    <span>Started by: iamjayvee15</span>
+                                                                    </td>
+                                <td class="aligncenter">0</td>
+                                <td class="aligncenter">Jan 10, 2014</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/13" class="droid">Chat Page - Facebook like chat bar remains white</a><br />
+                                    <span>Started by: ThunderScript</span>
+                                                                    </td>
+                                <td class="aligncenter">0</td>
+                                <td class="aligncenter">Jan 8, 2014</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/12" class="droid">jQuery FlexSlider not run</a><br />
+                                    <span>Started by: dohoaibien</span>
+                                                                    </td>
+                                <td class="aligncenter">0</td>
+                                <td class="aligncenter">Jan 6, 2014</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/11" class="droid">can not get theme to load on to wordpress</a><br />
+                                    <span>Started by: irepaircars</span>
+                                                                        <span>Last reply by: themepixels</span>
+                                                                    </td>
+                                <td class="aligncenter">2</td>
+                                <td class="aligncenter">Jan 5, 2014</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/9" class="droid">Preset Selected Tab</a><br />
+                                    <span>Started by: johnthelen2001</span>
+                                                                    </td>
+                                <td class="aligncenter">0</td>
+                                <td class="aligncenter">Dec 28, 2013</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/8" class="droid">WYSWYJ Widget</a><br />
+                                    <span>Started by: Sofia</span>
+                                                                    </td>
+                                <td class="aligncenter">0</td>
+                                <td class="aligncenter">Dec 23, 2013</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/7" class="droid">File Folder htdocs phpmyadmin Error View (Calendar,Sidebar, Etc..)</a><br />
+                                    <span>Started by: iamjayvee15</span>
+                                                                        <span>Last reply by: themepixels</span>
+                                                                    </td>
+                                <td class="aligncenter">2</td>
+                                <td class="aligncenter">Dec 17, 2013</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/3" class="droid">Shamcey Metro Style Admin Template</a><br />
+                                    <span>Started by: sigmabiomedical</span>
+                                                                    </td>
+                                <td class="aligncenter">0</td>
+                                <td class="aligncenter">Oct 30, 2013</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/2" class="droid">Login does not work for Safari</a><br />
+                                    <span>Started by: incoley</span>
+                                                                        <span>Last reply by: themepixels</span>
+                                                                    </td>
+                                <td class="aligncenter">1</td>
+                                <td class="aligncenter">Oct 26, 2013</td>
+                            </tr>
+                                                        <tr>
+                                <td>
+                                    <a href="http://themepixels.com/view_issue/1" class="droid">Messages display issue</a><br />
+                                    <span>Started by: twu_support</span>
+                                                                        <span>Last reply by: twu_support</span>
+                                                                    </td>
+                                <td class="aligncenter">2</td>
+                                <td class="aligncenter">Oct 16, 2013</td>
+                            </tr>
+                                                    </tbody>
+                    </table>
+                                    
+                </div><!-- contentwrapper -->
+                
+            </div>
+            <div class="span3 sidebar">
+                
+                                        <div class="widget">
+                        <h3 class="widget-title"><span>Sign In</span></h3>
+                        <div class="widget-content">
+                                                        <form class="signinform" action="http://themepixels.com/signin" method="post">
+                                <p>
+                                    <input type="text" id="username" name="username" placeholder="Username" class="input-block-level" />
+                                </p>
+                                <p>
+                                    <input type="password" id="password" name="password" placeholder="Password" class="input-block-level" />
+                                </p>
+                                <p>
+                                    <button class="btn btn-inverse btn-block">Sign In</button>
+                                </p>
+                                <p>Not a member? <a href="http://themepixels.com/signup">Create an Account</a></p>
+                            </form>
+                        </div><!-- widget-content -->
+                    </div><!-- widget -->
+                                    
+            </div>
+        </div><!-- row-fluid -->
+            
+    </div><!-- maincontent -->
+    
+</section>
+<!-- end of main content -->
+<footer>
+    <div class="footer">
+        <div class="row-fluid footer-inner">
+            
+            <div class="span4">
+                <div class="widget widget-text">
+                    <h3 class="widget-title"><span>About ThemePixels</span></h3>
+                    <div class="widget-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt... <a href="">Read More &rarr;</a></p>
+                        <address>
+                            <strong>ThemePixels, Inc.</strong><br>
+                            777 Something Ave, Suite 120<br>
+                            Somewhere City, XX 10212<br>
+                            <abbr title="Phone">P:</abbr> +63 999 0123 456
+                        </address>
+                    </div><!-- widget-content -->
+                </div><!-- widget --> 
+            </div><!-- span4 -->
+            
+            <div class="span4">
+                &nbsp;
+            </div><!-- span4 -->
+            
+            <div class="span4">
+                <div class="widget widget-text">
+                    <h3 class="widget-title"><span>Newsletter</span></h3>
+                    <div class="widget-content">
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                        <form class="newsletter-form" action="sample-action" method="post">
+                            <input type="text" name="subscribe" class="input-block-level" placeholder="youremail@address.com"/>
+                            <button class="btn">Subscribe</button>
+                        </form>
+                    </div><!-- widget-content -->
+                </div><!-- widget --> 
+            </div><!-- span4 -->
+            
+        </div><!-- footer-inner -->
+    </div><!-- footer -->
+    
+    <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+            <div class="pull-left">&copy; 2013. All Right Reserved. Powered by <a href="http://themepixels.com/">ThemePixels</a></div>
+            <div class="pull-right">
+                <ul>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div><!-- footer-bottom-inner -->    
+    </div><!-- footer-bottom -->
+    
+</footer>
+
+</div><!-- mainwrapper -->
+
+</body>
+</html>

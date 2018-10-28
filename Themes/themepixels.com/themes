@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Premium Web Resources | ThemePixels</title>
+
+<link rel="stylesheet" href="http://themepixels.com/css/style.default.css" type="text/css" />
+<link rel="stylesheet" href="http://themepixels.com/css/style.blue.css" type="text/css" />
+
+
+<script type="text/javascript" src="http://themepixels.com/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/jquery-ui-1.10.3.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/modernizr.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://themepixels.com/js/custom.js"></script>
+
+<script type="text/javascript" src="http://themepixels.com/js/jquery.isotope.min.js"></script>
+</head>
+
+<body>
+
+<div class="mainwrapper">
+
+<!-- start of header -->
+<header>
+    
+    <div id="topheader" class="topheader">
+        <div class="row-fluid topheader-inner">
+            
+            <div class="span8 topheader-left">
+                &nbsp;
+            </div>
+            
+            <div class="span4 topheader-right">
+                <ul class="social">
+                    <li class="facebook"><a href="http://facebook.com/themepixels" class="tpx-tooltip" data-original-title="Like Us On Facebook"></a></li>
+                    <li class="twitter"><a href="http://twitter.com/themepixels" class="tpx-tooltip" data-original-title="Follow Us On Twitter"></a></li>
+                    <li class="dribbble"><a href="http://dribbble.com/themepixels" class="tpx-tooltip" data-original-title="Follow Us on Dribbble"></a></li>
+                </ul>
+            </div>
+            
+        </div><!-- topheader-inner -->
+    </div><!-- topheader -->
+    
+    <div id="header" class="header">
+        <div class="row-fluid header-inner">
+            
+            <div id="header-logo" class="span3">
+                <a href="http://themepixels.com/"><img src="http://themepixels.com/images/tp-logo.png" alt="" /></a>
+            </div><!-- span3 -->
+            
+            <div id="header-nav" class="span9 header-nav">
+                <nav>
+                    <ul class="mainmenu">
+                                                <!--<li><a href="http://themepixels.com/">Home</a></li>-->
+								<!--<li><a href="http://themepixels.com/freebies">Freebies</a></li>-->
+                        <li class="current-menu-item"><a href="http://themepixels.com/themes">Themes</a></li>
+                        <li><a href="http://themepixels.com/support">Support</a></li>
+                        <!--<li><a href="http://themepixels.com/contact">Contact</a></li>-->
+                    </ul>
+                </nav>
+            </div><!-- span9 -->
+            
+        </div><!-- header-inner -->
+    </div><!-- row-fluid -->
+    
+</header>
+<!-- end of header -->
+<!-- start of main content -->
+<section>
+    
+    <div class="pagetitle" style="margin-bottom: 10px;">
+        <h2>Our Themes</h2> <span class="subtitle">Premium Themes</span>
+        <ul class="breadcrumbs pull-right">
+            <li><a href="index.html">Home</a> <span class="ar">&rarr;</span></li>
+            <li><span>Themes</span></li>
+        </ul>
+    </div><!-- pagetitle -->
+    
+    <div class="maincontent portfolio">
+        
+        <ul id="portfoliofilter" class="filter">
+            <li class="current"><a href="all">All</a></li>
+            <li><a href="admin">Admin Template</a></li>
+            <li><a href="html">HTML Template</a></li>
+            <li><a href="wordpress">Wordpress Template</a></li>
+        </ul>
+        
+        <div id="portfolio" class="portfolio-wrapper portfolio-three">
+            
+                        <div class="port-entry admin">
+                <div class="port-img">
+                    <img src="http://themepixels.com/screenshots/chain/thumbnail.jpg" alt="" />
+                    <div class="hoverButtons">
+                        <div class="hbinner">
+                            <div>
+                                <a target="_blank" href="http://themepixels.com/demo/chain_responsive_bootstrap_3_template">View Demo</a>
+                                <a target="_blank" href="http://themeforest.net/item/chain-responsive-bootstrap-3-admin-template/8539704">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-info">
+                    <h4>Chain Responsive Bootstrap 3 Template</h4>
+                    <p>ADMIN TEMPLATE</p>
+                </div><!-- port-info -->
+            </div>
+                        <div class="port-entry admin">
+                <div class="port-img">
+                    <img src="http://themepixels.com/screenshots/bracket/thumbnail.jpg" alt="" />
+                    <div class="hoverButtons">
+                        <div class="hbinner">
+                            <div>
+                                <a target="_blank" href="http://themepixels.com/demo/bracket_bootstrap_admin_template">View Demo</a>
+                                <a target="_blank" href="http://themeforest.net/item/bracket-responsive-bootstrap-3-admin-template/6894362">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-info">
+                    <h4>Bracket Bootstrap Admin Template</h4>
+                    <p>ADMIN TEMPLATE</p>
+                </div><!-- port-info -->
+            </div>
+                        <div class="port-entry html">
+                <div class="port-img">
+                    <img src="http://themepixels.com/screenshots/sansa/thumbnail.png" alt="" />
+                    <div class="hoverButtons">
+                        <div class="hbinner">
+                            <div>
+                                <a target="_blank" href="http://themepixels.com/demo/sansa_responsive_html5_template">View Demo</a>
+                                <a target="_blank" href="http://themeforest.net/item/sansa-responsive-html5-template-/5372336">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-info">
+                    <h4>Sansa Responsive HTML5 Template</h4>
+                    <p>HTML TEMPLATE</p>
+                </div><!-- port-info -->
+            </div>
+                        <div class="port-entry admin">
+                <div class="port-img">
+                    <img src="http://themepixels.com/screenshots/shamcey/thumbnail.png" alt="" />
+                    <div class="hoverButtons">
+                        <div class="hbinner">
+                            <div>
+                                <a target="_blank" href="http://themepixels.com/demo/shamcey_metro_style_admin_template">View Demo</a>
+                                <a target="_blank" href="http://themeforest.net/item/shamcey-metro-style-admin-template/4566092">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-info">
+                    <h4>Shamcey Metro Style Admin Template</h4>
+                    <p>ADMIN TEMPLATE</p>
+                </div><!-- port-info -->
+            </div>
+                        <div class="port-entry html">
+                <div class="port-img">
+                    <img src="http://themepixels.com/screenshots/sartana/thumbnail.png" alt="" />
+                    <div class="hoverButtons">
+                        <div class="hbinner">
+                            <div>
+                                <a target="_blank" href="http://themepixels.com/demo/sartana_responsive_portfolio_template">View Demo</a>
+                                <a target="_blank" href="http://themeforest.net/item/sartana-responsive-portfolio-template/4297551">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-info">
+                    <h4>Sartana Responsive Portfolio Template</h4>
+                    <p>HTML TEMPLATE</p>
+                </div><!-- port-info -->
+            </div>
+                        <div class="port-entry admin">
+                <div class="port-img">
+                    <img src="http://themepixels.com/screenshots/katniss/thumbnail.png" alt="" />
+                    <div class="hoverButtons">
+                        <div class="hbinner">
+                            <div>
+                                <a target="_blank" href="http://themepixels.com/demo/katniss_premium_admin_template">View Demo</a>
+                                <a target="_blank" href="http://themeforest.net/item/katniss-premium-admin-template/3878281">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-info">
+                    <h4>Katniss Premium Admin Template</h4>
+                    <p>ADMIN TEMPLATE</p>
+                </div><!-- port-info -->
+            </div>
+                        <div class="port-entry html">
+                <div class="port-img">
+                    <img src="http://themepixels.com/screenshots/sam/thumbnail.png" alt="" />
+                    <div class="hoverButtons">
+                        <div class="hbinner">
+                            <div>
+                                <a target="_blank" href="http://themepixels.com/demo/sam_premium_html_template">View Demo</a>
+                                <a target="_blank" href="http://themeforest.net/item/sam-premium-html-template/3466150">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-info">
+                    <h4>Sam Premium HTML Template</h4>
+                    <p>HTML TEMPLATE</p>
+                </div><!-- port-info -->
+            </div>
+                        <div class="port-entry admin">
+                <div class="port-img">
+                    <img src="http://themepixels.com/screenshots/amanda/thumbnail.png" alt="" />
+                    <div class="hoverButtons">
+                        <div class="hbinner">
+                            <div>
+                                <a target="_blank" href="http://themepixels.com/demo/amanda_responsive_admin_template">View Demo</a>
+                                <a target="_blank" href="http://themeforest.net/item/amanda-responsive-admin-template/2694429">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-info">
+                    <h4>Amanda Responsive Admin Template</h4>
+                    <p>ADMIN TEMPLATE</p>
+                </div><!-- port-info -->
+            </div>
+                        <div class="port-entry admin">
+                <div class="port-img">
+                    <img src="http://themepixels.com/screenshots/starlight/thumbnail.png" alt="" />
+                    <div class="hoverButtons">
+                        <div class="hbinner">
+                            <div>
+                                <a target="_blank" href="http://themepixels.com/demo/starlight_reponsive_admin_template">View Demo</a>
+                                <a target="_blank" href="http://themeforest.net/item/starlight-reponsive-admin-template/2285663">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-info">
+                    <h4>Starlight Reponsive Admin Template</h4>
+                    <p>ADMIN TEMPLATE</p>
+                </div><!-- port-info -->
+            </div>
+                        <div class="port-entry admin">
+                <div class="port-img">
+                    <img src="http://themepixels.com/screenshots/mandylane/thumbnail.png" alt="" />
+                    <div class="hoverButtons">
+                        <div class="hbinner">
+                            <div>
+                                <a target="_blank" href="http://themepixels.com/demo/mandy_lane_premium_admin_template">View Demo</a>
+                                <a target="_blank" href="http://themeforest.net/item/mandy-lane-premium-admin-template/1028955">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="port-info">
+                    <h4>Mandy Lane Premium Admin Template</h4>
+                    <p>ADMIN TEMPLATE</p>
+                </div><!-- port-info -->
+            </div>
+                        
+        </div>
+            
+    </div><!-- maincontent -->
+    
+</section>
+<!-- end of main content -->
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+    // Portfolio Filter
+    jQuery('#portfoliofilter a').click(function(){
+        var filter = (jQuery(this).attr('href') != 'all')? '.'+jQuery(this).attr('href') : '*';
+        jQuery('#portfolio').isotope({ filter: filter });
+	    
+        jQuery('#portfoliofilter li').removeClass('current');
+        jQuery(this).parent().addClass('current');
+            
+        return false;
+    });
+    
+    jQuery('.port-img').hover(function(){
+        jQuery(this).find('.hoverButtons').fadeIn();
+    }, function(){
+        jQuery(this).find('.hoverButtons').fadeOut();
+    });
+    
+});
+
+jQuery(window).load(function(){
+    
+    jQuery('#portfolio').isotope({
+        itemSelector : '.port-entry',
+        layoutMode : 'fitRows'
+    });
+    
+});
+</script>
+<footer>
+    <div class="footer">
+        <div class="row-fluid footer-inner">
+            
+            <div class="span4">
+                <div class="widget widget-text">
+                    <h3 class="widget-title"><span>About ThemePixels</span></h3>
+                    <div class="widget-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt... <a href="">Read More &rarr;</a></p>
+                        <address>
+                            <strong>ThemePixels, Inc.</strong><br>
+                            777 Something Ave, Suite 120<br>
+                            Somewhere City, XX 10212<br>
+                            <abbr title="Phone">P:</abbr> +63 999 0123 456
+                        </address>
+                    </div><!-- widget-content -->
+                </div><!-- widget --> 
+            </div><!-- span4 -->
+            
+            <div class="span4">
+                &nbsp;
+            </div><!-- span4 -->
+            
+            <div class="span4">
+                <div class="widget widget-text">
+                    <h3 class="widget-title"><span>Newsletter</span></h3>
+                    <div class="widget-content">
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                        <form class="newsletter-form" action="sample-action" method="post">
+                            <input type="text" name="subscribe" class="input-block-level" placeholder="youremail@address.com"/>
+                            <button class="btn">Subscribe</button>
+                        </form>
+                    </div><!-- widget-content -->
+                </div><!-- widget --> 
+            </div><!-- span4 -->
+            
+        </div><!-- footer-inner -->
+    </div><!-- footer -->
+    
+    <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+            <div class="pull-left">&copy; 2013. All Right Reserved. Powered by <a href="http://themepixels.com/">ThemePixels</a></div>
+            <div class="pull-right">
+                <ul>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div><!-- footer-bottom-inner -->    
+    </div><!-- footer-bottom -->
+    
+</footer>
+
+</div><!-- mainwrapper -->
+
+</body>
+</html>
